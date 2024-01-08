@@ -22,25 +22,25 @@
     cursor: pointer;
 }
 
-.nav-list{
+.navlist{
     width: 70%;
     /*background-color: skyblue;*/
     display: flex;
     align-items: center;
 }
 
-.nav-list li {
+.navlist li {
     list-style: none;
     padding: 26px 30px;
 
 }
 
-.nav-list li a {
+.navlist li a {
     text-decoration: none;
     color: white;
     font-size: 21px;
 }
-.nav-list li a:hover {
+.navlist li a:hover {
     text-decoration: none;
     color: lightgreen;
     
@@ -209,7 +209,7 @@
     margin: 3px;
 }
 @media only screen and (max-width :1140px) {
-    .nav-list{
+    .navlist{
         flex-direction: column;
         text-align: center;
     }
